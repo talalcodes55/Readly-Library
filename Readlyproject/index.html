@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readly Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+</head>
+<body>
+  <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="imagelogo" src="images/readlylogo.png" alt="" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link me-2 p-2 p-lg-3 d-inline-block" href="#categories">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 p-2 p-lg-3 d-inline-block" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 p-2 p-lg-3 d-inline-block" href="#contact">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a id="download" href="#"class="nav-link mt-3 mt-lg-0 p-2 p-lg-3 btn rounded-pill d-inline-block">Download app</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- Landing start -->
+    <div class="landing min-vh-80 d-flex justify-content-center align-items-center">
+      <!-- grid container -->
+      <div class="container m-auto">
+        <div class="row flex-column-reverse flex-wrap align-items
+        -center">
+          <!-- text div -->
+          <div class=" col-12 col-sm-6 text-center align-self-center">
+            <h1>Imagine a place..</h1>
+            <h5>where all words live digitally</h5>
+            <p>New to our library? let's sign you up!</p>
+            <a id="getstarted" href="signup.html" class="btn rounded-pill">Sign up</a>
+          </div>
+          <!-- image div -->
+          <div class=" col-12 col-sm-6 align-self-center">
+            <img src="images/6263.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Landing end -->
+    <!-- Categories start -->
+    <div id="categories" class="pt-5 pb-5 text-center bg-light min-vh-100">
+      <div class="container">
+        <div class="main-title mt-5 mb-5">
+          <h2>Categories</h2>
+          <p class="mt-4">Books from every genre</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+            <div class="box">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-dragon position-absolute bottom-0"></i>
+              </div>
+              <h4 class="mb-3 mt-4 text-uppercase">Fantasy</h4>
+              <p>For imagination lovers!</p>
+              <a href="fantasy.html" target="_blank" class="see-more">visit shelves</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+            <div class="box">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-magnifying-glass position-absolute bottom-0 search"></i>
+                <i class="fa-solid fa-hands-bound position-absolute bottom-0 cuffs"></i>
+              </div>
+              <h4 class="mb-3 mt-4 text-uppercase">Police</h4>
+              <p>Dive into mysteries</p>
+              <a href="police.html" target="_blank" class="see-more">visit shelves</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+            <div class="box">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-masks-theater drama position-absolute bottom-0"></i>
+              </div>
+              <h4 class="mb-3 mt-4 text-uppercase">Dramatic</h4>
+              <p>A dose of warm feelings</p>
+              <a href="drama.html" target="_blank" class="see-more">visit shelves</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 g-3">
+            <div class="box">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-graduation-cap position-absolute bottom-0 graduate"></i>
+              </div>
+              <h4 class="mb-3 mt-4 text-uppercase">Education</h4>
+              <p>Enrich your knowledge</p>
+              <a href="education.html" target="_blank" class="see-more">visit shelves</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Categories end -->
+    <!-- Pricing start -->
+    <div id="pricing" class="text-center pt-5 pb-5 bg-white min-vh-100">
+      <div class="container">
+          <div class="main-title mt-5 mb-5">
+            <h2>Pricing</h2>
+            <p class="mt-4">Choose a plan that suits you</p>
+          </div>
+          <div class="row">
+          <div class="col-sm-6">
+            <div class="pricing-card p-3 mt-5 text-start">
+              <h3 class="text-center mb-4">Basic\ <span>full free</span></h3>
+              <ul class="mt-4 mb-4">
+                <li>Get access to a limited selection of books from various genres.</li>
+                <li>Able to create a personalized reading list.</li>
+                <li>3 books a week to download</li>
+                <li>Ad-supported experience.</li>
+              </ul>
+              <a href="#" class="choose p-2 ms-2">Choose plan</a>
+              </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="pricing-card p-3 mt-5 text-start">
+              <h3 class="text-center mb-4">Premium\ <span>49.99$/mo</span></h3>
+              <ul class="mt-4 mb-4">
+                <li>Unlimited access to the entire library collection, including new releases and bestsellers.</li>
+                <li> Offline reading capability for selected books.</li>
+                <li>Enhanced reading features such as bookmarking, highlighting, and notes.</li>
+                <li>Ads-free experience</li>
+              </ul>
+              <a href="pay.html" target="_blank" class="choose p-2 ms-2">Choose plan</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing end -->
+    <!-- Contact start -->
+            <div id="contact" class="text-center pt-5 pb-5 bg-light min-vh-100">
+              <div class="container">
+                <div class="main-title mt-5 mb-5">
+                  <h2>Contact Us</h2>
+                  <p class="mt-4">You can always reach us!</p>
+                </div>
+              <div class="row border rounded-4 p-3 shadow bg-white col-10 m-auto">
+                <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center">
+                  <div class="image">
+                    <img src="images/contact.png" alt="" class="contact-image img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-6 p-3">
+                  <div class="row">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="input-group mb-3">
+                      <textarea class="form-control" cols="30" rows="10" placeholder="Your message:"></textarea>
+                    </div>
+                    <div class="input-group">
+                      <a href="" class=" rounded-pill w-100 send ">Send message</a>
+                    </div>
+                    <div class="social-icons-holder">
+                      <p class="mt-4">follow us on</p>
+                      <ul class="social nav justify-content-evenly">
+                        <li class="nav-item"><a href="" class="nav-link social-link"><i class="fa-brands fa-facebook" style="color: #1877f2;"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link social-link"><i class="fa-brands fa-whatsapp" style="color:#25d366;"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link social-link"><i class="fa-brands fa-instagram" style="color: #5b51d8;"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link social-link"><i class="fa-brands fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+    <!-- Contact end -->
+    <!-- Footer start -->
+    <footer class="p-3 text-center">
+      <div class="container">
+        <div class="row align-items-center ">
+          <div class="col-12">
+            <div class="copyrights">
+              <p><i class="fa-solid fa-copyright me-3"></i>All rights reserved for Readly <span style="font-size: 14px;">- made by Talal Alghazal</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+</body>
+</html>
